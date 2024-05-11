@@ -1,0 +1,33 @@
+.login-container{
+    position: absolute;
+    height: 600px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+}
+body{
+    background-color: rgb(70, 40, 0);
+}
+.single-element{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 40px;
+    text-align: center;
+}
+.single-element label{
+    font-size: 24px;
+    margin-left: 10px;
+}
+.single-element input{
+    margin-left: 30px;
+    margin-bottom: 100px;
+    height: 20px;
+    border-radius: 10px;
+    padding-left: 30px;
+}

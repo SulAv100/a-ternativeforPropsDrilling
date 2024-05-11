@@ -1,0 +1,28 @@
+.navbar-element{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.left-component{
+    display: flex;
+    align-items: center;
+}
+.left-component .span{
+    font-size: 24px;
+    margin-right: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: 700;
+    font-family: cursive;
+    color: white;
+}
+.span:hover{
+    color: rgb(103, 103, 214);
+    border-bottom: 5px solid rgb(132, 186, 125);
+    transition: border-bottom 0.2s ease;
+}
